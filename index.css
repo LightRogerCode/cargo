@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=M+PLUS+Code+Latin:wght@100..700&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=M+PLUS+Code+Latin:wght@100..700&family=Madimi+One&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=M+PLUS+Code+Latin:wght@100..700&family=Madimi+One&family=Signika+Negative:wght@300..700&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    cursor: pointer;
+}
+body{
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+}
+.head{
+    display: flex;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+.logout{
+    margin-left: 85%;
+    
+}
+.title{
+    margin-top: 10px;
+    height: 2rem;
+    word-spacing: 3px;
+    letter-spacing: 4px;
+    font-family: "madimi one";
+}
+.body{
+    display: flex;
+    height: 86vh;
+}
+.nav{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    width: 250px;
+    line-height: 100px;
+    
+}
+.disp{
+    
+    width: 80vw;
+    margin-left: 5%;
+}
+table{
+    width: 100%;
+}
+tr{
+    height: 2rem;
+}
+.hd{
+    height: 3rem;
+    font-size: 20px;
+    font-family: "Germania One";
+    text-transform: capitalize;
+}
+  table tr:nth-child(odd) {
+    background-color: rgb(152, 136, 136); 
+    
+  }
+     .fa-file-export{
+        margin-left: 30%;
+     }
+     .fa-file-import{
+        margin-left: 15%;
+     }
+     caption{
+        
+        font-size: 25px;
+        font-family: "Germania One";
+        text-transform: capitalize;
+        margin-top: 20px;
+
+     }
+     nav a{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "Germania One";
+        color: blue;
+        text-decoration: none;
+        text-transform: capitalize;
+     }
+     .name{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "Germania One";
+        color: blue;
+        text-decoration: none;
+        text-transform: capitalize;
+     }
+     button{
+        background: linear-gradient(to bottom right, blue, red);
+        border-radius: 12px;
+        font-size: 16px;
+        font-family: "madimi one";
+        text-transform: capitalize;
+        width: 6rem;
+        cursor: pointer;
+     }
+     th{
+        background: linear-gradient(to bottom right, blue, rgb(214, 36, 36)); 
+        border-radius: 4px;
+     }
+     .src {
+        margin-left: 81%;
+     }
+     .search input{
+        background-color: transparent;
+        height: 2rem;
+        border-radius: 4px;
+        border: 1px solid rgb(105, 14, 14);
+        font-family: Signika;
+        font-size: 18px;
+    }
+    td{
+        font-family: 'Roboto';
+        font-weight: bolder;
+    }
+    .items{
+        margin-left: 0;
+    }
+    fieldset{
+        width: 500px;
+        display: flex;
+        place-items: center;
+        justify-content: center;
+        line-height: 60px;
+        border: 3px solid rgb(78, 5, 5);
+        border-left: 3px solid rgb(19, 15, 76);
+        border-bottom: 3px solid rgb(19, 15, 76);
+        background-color: whitesmoke;
+        border-radius: 6px;
+    }
+    .add{
+        background-color: transparent;
+        height: 2rem;
+        border-radius: 4px;
+        border: 1px solid rgb(105, 14, 14);
+        font-family: Signika;
+        font-size: 18px;
+        width: 400px;
+    }
+    legend{
+        font-size: 25px;
+        font-family: "Germania One";
+        text-transform: capitalize;
+        margin-top: 20px;
+    }
+    .adddisplay{
+        height: 100vh;
+        width: 100vw;
+        background-color: transparent;
+        opacity: 1;
+        justify-content: center;
+        place-items: center;
+        display: none;
+        position: absolute;
+        top: 300px;
+        bottom: 50%;
+        
+        
+
+    }
+    .input{
+        opacity: 1;
+    }
+    
+    img{
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        left: 60%;
+        top: 37%;
+    }
+    #importtable,#exporttable,#modify{
+        height: 100vh;
+        width:100vw;
+        justify-content: center;
+        place-items: center;
+        position: absolute;
+        display: none;
+        
+    }
+    #exporttable table{
+        width : 700px;
+        
+    }

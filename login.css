@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=M+PLUS+Code+Latin:wght@100..700&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=M+PLUS+Code+Latin:wght@100..700&family=Madimi+One&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=M+PLUS+Code+Latin:wght@100..700&family=Madimi+One&family=Signika+Negative:wght@300..700&family=Signika:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+    width: 1300px;
+    height: 95vh;
+   
+    justify-items: center;
+    place-items: center;
+}
+.form{
+    
+    width: 50%;
+    background: linear-gradient(to bottom right, blue, rgb(214, 36, 36));
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 70vh;
+    border-radius: 10px 0px 0 10px;
+    
+    
+}
+.content{
+    width: 50%;
+    background-color: rgb(148, 148, 210);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 70vh;
+    border-radius: 0 10px 10px 0;
+    
+}
+input{
+    height: 50px;
+    width: 80%;
+    margin-left: 10px;
+    padding-left: 30px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-family: Signika;
+    font-size: 34px;
+}
+table{
+    
+    width: 100%;
+}
+form{
+    width: 100%;
+}
+
+.fa-key{
+    font-size: 24px;
+    position: absolute;
+    left: 328px;
+    padding-top: 0.7%;
+}
+.fa-envelope{
+    font-size: 24px;
+    position: absolute;
+    left: 328px;
+    padding-top: 0.7%;
+}
+tr{
+    height: 70px;
+    
+}
+td{
+    align-content: center;
+    place-items: center;
+}
+.btn{
+    width: 200px;
+    margin-left: 30%;
+    height: 30px;
+    
+}
+span{
+    font-family: "Germania one";
+    font-size: 34px;
+    color: rgb(7, 7, 88);
+    padding-bottom: 30px;
+}h5{
+    
+    font-size: 24px;
+    color: rgb(113, 26, 68);
+    font-weight: bold;
+    line-height: 40px;
+    font-family: "Signika Negative";
+    
+}a{
+    font-size: 24px;
+    color: black;
+}button{
+    background: linear-gradient(to bottom right, blue, red);
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: "madimi one";
+    text-transform: capitalize;
+}
+table caption{
+    font-family: "Germania one";
+    font-size: 34px;
+    color: rgb(7, 7, 88);
+    padding-bottom: 30px;
+}
